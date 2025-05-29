@@ -13,6 +13,8 @@ Inspirado no conceito do Tamagotchi, o “bichinho virtual”, o programa permit
 - Consulta lista de Pokémons via API REST pública (https://pokeapi.co/)
 - Exibe informações detalhadas do Pokémon escolhido: tipos, habilidades e estatísticas base
 - Interface de linha de comando simples e interativa
+- Parseamento do JSON retornado pela API
+- Exibição das habilidades, altura e peso do Pokémon escolhido
 
 ---
 
