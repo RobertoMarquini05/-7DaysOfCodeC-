@@ -33,6 +33,9 @@ Inspirado no conceito do Tamagotchi, o “bichinho virtual”, o programa permit
 
 ```bash
 git clone https://github.com/seuUsuario/7DaysOfCode-PokemonTamagotchi.git
+```
+---
 
-Autor
+## Autor
+
 Roberto Marquini - Desenvolvedor Jr. C#
