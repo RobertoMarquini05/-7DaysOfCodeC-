@@ -25,7 +25,7 @@ namespace _7DaysOfCode.BLL
             Console.WriteLine("========================================================");
             Console.WriteLine("Aqui vão algumas opções !");
             Console.WriteLine("========================================================");
-            for (int i = 0; i < _listaPokemons.Count; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"{i + 1} - {_listaPokemons[i].Name}");
             }
@@ -69,6 +69,11 @@ namespace _7DaysOfCode.BLL
                     return $"{a.Ability.Name} {tipo}";
                 }) ?? new List<string>());
                 Console.WriteLine($"Habilidades: {habilidades}");
+
+                // Adicionar altura e peso
+                Console.WriteLine($"Altura: {pokemon.Height / 10.0:F1} metros"); // Converte de decímetros para metros
+                Console.WriteLine($"Peso: {pokemon.Weight / 10.0:F1} kg"); // Converte de hectogramas para kg
+
                 Console.WriteLine("========================================================");
             }
             catch (Exception e)

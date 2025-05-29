@@ -12,3 +12,4 @@ C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\ref
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.pdb
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.genruntimeconfig.cache
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\ref\#7DaysOfCode.dll
+C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.sourcelink.json
