@@ -1,0 +1,70 @@
+# Arquivos e pastas gerados pelo build do .NET
+/bin/
+**/bin/
+**/obj/
+*.csproj.user
+*.sln
+*.sln.iml
+*.csprojResolveAssemblyReference.cache
+
+# Pacotes NuGet
+*.nupkg
+**/packages/
+!**/packages/*.nupkg/  # Evita ignorar subpastas de pacotes intencionalmente
+
+# Arquivos de configuração do Visual Studio e VS Code
+/.vscode/
+**/.vs/
+*.user
+*.suo
+*.cache
+*.CodeAnalysisLog.xml
+*.vbprojResolveAssemblyReference.cache
+
+# Arquivos de teste e relatórios
+/TestResults/
+*.trx
+*.xml
+/coverage/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Arquivos de ambiente local
+.env
+.env.local
+.env.*.local
+
+# Arquivos de sistema operacional
+Thumbs.db
+.DS_Store
+
+# Pastas de saída de publicação
+/publish/
+**/out/
+
+# Arquivos de depuração e profiling
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+
+# Arquivos gerados por ferramentas de CI/CD
+/artifacts/
+*.coverlet/
+*.cobertura.xml
+
+# Ignorar arquivos e pastas específicas do seu projeto (baseado na imagem)
+**/7DaysOfCode/bin/
+**/7DaysOfCode/obj/
+**/7DaysOfCode/.vs/
+**/7DaysOfCode/.vscode/
+**/7DaysOfCode/futdcache.v2/
+**/7DaysOfCode/suo
+**/7DaysOfCode/DocumentLayout.json
+**/7DaysOfCode/ProjectEvaluation.json

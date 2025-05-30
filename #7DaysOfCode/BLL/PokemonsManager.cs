@@ -8,81 +8,107 @@ namespace _7DaysOfCode.BLL
 {
     public class PokemonsManager
     {
-        private List<PokemonEntry> _listaPokemons;
-        private readonly PokemonService _service;
-
+        private readonly List<PokemonEntry> _listaPokemons;
+        private readonly PokemonService _servicoPokemon;
+        /// <summary>
+        /// Inicializa o gerenciador de Pokémon, carregando a lista de Pokémon da API.
+        /// </summary>
         public PokemonsManager()
         {
-            _service = new PokemonService();
-            // Carregar lista de pokemons da API, pegar o resultado async corretamente:
+            _servicoPokemon = new PokemonService();
             _listaPokemons = PokemonAPIClient.GetPokemonsAsync().Result;
         }
 
+        /// <summary>
+        /// Exibe a lista dos primeiros 5 Pokémon disponíveis para escolha.
+        /// </summary>
         public void Listar()
         {
             Console.Clear();
-            Console.WriteLine("Vamos escolher o seu Pokemon !");
+            Console.WriteLine("Vamos escolher o seu Pokémon!");
             Console.WriteLine("========================================================");
-            Console.WriteLine("Aqui vão algumas opções !");
+            Console.WriteLine("Aqui vão algumas opções!");
             Console.WriteLine("========================================================");
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 5 && i < _listaPokemons.Count; i++)
             {
                 Console.WriteLine($"{i + 1} - {_listaPokemons[i].Name}");
             }
             Console.WriteLine("========================================================");
         }
 
+        /// <summary>
+        /// Obtém as características de um Pokémon selecionado pelo usuário.
+        /// </summary>
         public async Task GetCharacteristicsAsync()
         {
             try
             {
                 Console.WriteLine("Digite o número do Pokémon para ver suas características:");
-                var input = Console.ReadLine();
-                if (!int.TryParse(input, out int index) || index < 1 || index > _listaPokemons.Count)
+                string entrada = Console.ReadLine();
+                if (!int.TryParse(entrada, out int indice) || indice < 1 || indice > _listaPokemons.Count)
                 {
-                    Console.WriteLine("Número inválido! Escolha um número válido da lista.");
+                    ExibirMensagemErro("Número inválido! Escolha um número válido da lista.");
                     Console.ReadLine();
                     return;
                 }
 
-                var selectedPokemon = _listaPokemons[index - 1];
+                var pokemonSelecionado = _listaPokemons[indice - 1];
+                var pokemon = await _servicoPokemon.GetPokemonAsync(pokemonSelecionado.Url);
 
-                var pokemon = await _service.GetPokemonAsync(selectedPokemon.Url);
-
-                Console.WriteLine($"\nPokémon: {pokemon.Name}");
-
-                var tipos = string.Join(", ", pokemon.Types?.ConvertAll(t => t.Type.Name) ?? new List<string>());
-                Console.WriteLine($"Tipos: {tipos}");
-
-                Console.WriteLine("Estatísticas Base:");
-                if (pokemon.Stats != null)
-                {
-                    foreach (var stat in pokemon.Stats)
-                    {
-                        Console.WriteLine($"  {stat.Stat.Name}: {stat.Base_Stat}");
-                    }
-                }
-
-                var habilidades = string.Join(", ", pokemon.Abilities?.ConvertAll(a =>
-                {
-                    var tipo = a.Is_Hidden ? "(oculta)" : "(normal)";
-                    return $"{a.Ability.Name} {tipo}";
-                }) ?? new List<string>());
-                Console.WriteLine($"Habilidades: {habilidades}");
-
-                // Adicionar altura e peso
-                Console.WriteLine($"Altura: {pokemon.Height / 10.0:F1} metros"); // Converte de decímetros para metros
-                Console.WriteLine($"Peso: {pokemon.Weight / 10.0:F1} kg"); // Converte de hectogramas para kg
-
-                Console.WriteLine("========================================================");
+                ExibirCaracteristicasPokemon(pokemon);
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Erro: {e.Message}");
+                ExibirMensagemErro($"Erro: {e.Message}");
             }
 
             Console.WriteLine("Pressione Enter para continuar...");
             Console.ReadLine();
         }
+
+        /// <summary>
+        /// Retorna uma entrada de Pokémon com base no índice fornecido.
+        /// </summary>
+        public PokemonEntry GetPokemonEntry(int indice)
+        {
+            if (indice >= 0 && indice < _listaPokemons.Count)
+            {
+                return _listaPokemons[indice];
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Exibe as características de um Pokémon na tela.
+        /// </summary>
+        private static void ExibirCaracteristicasPokemon(Pokemon pokemon)
+        {
+            Console.WriteLine($"\nPokémon: {pokemon.Name}");
+            var tipos = string.Join(", ", pokemon.Types?.ConvertAll(t => t.Type.Name) ?? new List<string>());
+            Console.WriteLine($"Tipos: {tipos}");
+            Console.WriteLine("Estatísticas Base:");
+            foreach (var estatistica in pokemon.Stats)
+            {
+                Console.WriteLine($"  {estatistica.Stat.Name}: {estatistica.Base_Stat}");
+            }
+            var habilidades = string.Join(", ", pokemon.Abilities?.ConvertAll(a =>
+            {
+                string tipo = a.Is_Hidden ? "(oculta)" : "(normal)";
+                return $"{a.Ability.Name} {tipo}";
+            }) ?? new List<string>());
+            Console.WriteLine($"Habilidades: {habilidades}");
+            Console.WriteLine($"Altura: {pokemon.Height / 10.0:F1} metros");
+            Console.WriteLine($"Peso: {pokemon.Weight / 10.0:F1} kg");
+            Console.WriteLine("========================================================");
+        }
+
+        /// <summary>
+        /// Exibe uma mensagem de erro na tela.
+        /// </summary>
+        private static void ExibirMensagemErro(string mensagem)
+        {
+            Console.WriteLine(mensagem);
+        }
     }
 }
+

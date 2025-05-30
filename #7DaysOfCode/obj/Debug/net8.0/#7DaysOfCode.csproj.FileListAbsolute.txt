@@ -7,9 +7,9 @@ C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7D
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.AssemblyInfoInputs.cache
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.AssemblyInfo.cs
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.csproj.CoreCompileInputs.cache
+C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.sourcelink.json
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.dll
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\refint\#7DaysOfCode.dll
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.pdb
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.genruntimeconfig.cache
 C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\ref\#7DaysOfCode.dll
-C:\Users\Roberto Marquini\Desktop\#7DaysOfCode\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.sourcelink.json
