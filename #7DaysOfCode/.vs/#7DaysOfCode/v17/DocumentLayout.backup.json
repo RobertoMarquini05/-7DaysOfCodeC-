@@ -49,6 +49,10 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "TamagotchiController.cs",
@@ -73,10 +77,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T14:37:43.333Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -125,7 +125,7 @@
               "RelativeDocumentMoniker": "Models\\PokemonsManager.cs",
               "ToolTip": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Models\\PokemonsManager.cs",
               "RelativeToolTip": "Models\\PokemonsManager.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAIwAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T14:37:32.547Z",
               "EditorCaption": ""
