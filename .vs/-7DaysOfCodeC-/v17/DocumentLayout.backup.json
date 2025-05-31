@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:#7DaysOfCode\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\BLL\\TamagotchiController.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:#7DaysOfCode\\BLL\\TamagotchiController.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\PokemonAPIClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:#7DaysOfCode\\PokemonAPIClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Utils\\ClientEntry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:#7DaysOfCode\\Utils\\ClientEntry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Services\\PokemonService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:#7DaysOfCode\\Services\\PokemonService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Models\\PokemonEntry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:#7DaysOfCode\\Models\\PokemonEntry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Models\\Pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:#7DaysOfCode\\Models\\Pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TamagotchiController.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\BLL\\TamagotchiController.cs",
+              "RelativeDocumentMoniker": "#7DaysOfCode\\BLL\\TamagotchiController.cs",
+              "ToolTip": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\BLL\\TamagotchiController.cs",
+              "RelativeToolTip": "#7DaysOfCode\\BLL\\TamagotchiController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:31:42.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Program.cs",
+              "RelativeDocumentMoniker": "#7DaysOfCode\\Program.cs",
+              "ToolTip": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Program.cs",
+              "RelativeToolTip": "#7DaysOfCode\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:25:23.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokemonAPIClient.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\PokemonAPIClient.cs",
+              "RelativeDocumentMoniker": "#7DaysOfCode\\PokemonAPIClient.cs",
+              "ToolTip": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\PokemonAPIClient.cs",
+              "RelativeToolTip": "#7DaysOfCode\\PokemonAPIClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:25:14.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientEntry.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Utils\\ClientEntry.cs",
+              "RelativeDocumentMoniker": "#7DaysOfCode\\Utils\\ClientEntry.cs",
+              "ToolTip": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Utils\\ClientEntry.cs",
+              "RelativeToolTip": "#7DaysOfCode\\Utils\\ClientEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:25:07.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PokemonService.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Services\\PokemonService.cs",
+              "RelativeDocumentMoniker": "#7DaysOfCode\\Services\\PokemonService.cs",
+              "ToolTip": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Services\\PokemonService.cs",
+              "RelativeToolTip": "#7DaysOfCode\\Services\\PokemonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:24:58.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PokemonEntry.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Models\\PokemonEntry.cs",
+              "RelativeDocumentMoniker": "#7DaysOfCode\\Models\\PokemonEntry.cs",
+              "ToolTip": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Models\\PokemonEntry.cs",
+              "RelativeToolTip": "#7DaysOfCode\\Models\\PokemonEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:24:54.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Models\\Pokemon.cs",
+              "RelativeDocumentMoniker": "#7DaysOfCode\\Models\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\rober\\Desktop\\7DaysOfCode\\-7DaysOfCodeC-\\#7DaysOfCode\\Models\\Pokemon.cs",
+              "RelativeToolTip": "#7DaysOfCode\\Models\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:24:46.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

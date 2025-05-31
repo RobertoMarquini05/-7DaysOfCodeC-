@@ -3,7 +3,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using _7DaysOfCode.Models;
 
-namespace _7DaysOfCode.Services
+namespace _7DaysOfCode.Models
 {
     public class PokemonService
     {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using _7DaysOfCode.Models;
 
-namespace _7DaysOfCode
+namespace _7DaysOfCode.Models
 {
     public static class PokemonAPIClient
     {

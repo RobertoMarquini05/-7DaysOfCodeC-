@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _7DaysOfCode.Utils
+namespace _7DaysOfCode.View
 {
     public static class ClientEntry
     {

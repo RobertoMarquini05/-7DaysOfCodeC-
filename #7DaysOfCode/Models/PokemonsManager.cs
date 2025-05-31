@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using _7DaysOfCode.Models;
-using _7DaysOfCode.Services;
 
-namespace _7DaysOfCode.BLL
+
+namespace _7DaysOfCode.Models
 {
     public class PokemonsManager
     {
