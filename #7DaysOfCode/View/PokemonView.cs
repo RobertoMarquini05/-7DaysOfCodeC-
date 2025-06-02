@@ -14,7 +14,21 @@ namespace _7DaysOfCode.View
             Console.WriteLine("O que você deseja?");
             Console.WriteLine("1 - Adoção de mascotes");
             Console.WriteLine("2 - Ver mascotes adotados");
-            Console.WriteLine("3 - Sair do Jogo");
+            Console.WriteLine("3 - Interagir com mascotes");
+            Console.WriteLine("4 - Sair do Jogo");
+            Console.WriteLine("=================================================");
+        }
+
+        public void ExibirMenuInteracao(Mascote mascote)
+        {
+            Console.Clear();
+            Console.WriteLine($"Interagindo com {mascote.Name}");
+            Console.WriteLine("=================================================");
+            Console.WriteLine("O que você deseja fazer?");
+            Console.WriteLine("1 - Alimentar");
+            Console.WriteLine("2 - Brincar");
+            Console.WriteLine("3 - Dormir");
+            Console.WriteLine("4 - Voltar");
             Console.WriteLine("=================================================");
         }
 
@@ -39,7 +53,26 @@ namespace _7DaysOfCode.View
             Console.WriteLine("=================================================");
         }
 
-        public void ExibirMascotesAdotados(List<Pokemon> mascotesAdotados)
+        public void ExibirCaracteristicasMascote(Mascote mascote)
+        {
+            Console.WriteLine($"\nMascote: {mascote.Name}");
+            var tipos = string.Join(", ", mascote.Types?.ConvertAll(t => t.Type.Name) ?? new List<string>());
+            Console.WriteLine($"Tipos: {tipos}");
+            var habilidades = string.Join(", ", mascote.Abilities?.ConvertAll(a =>
+            {
+                string tipo = a.Is_Hidden ? "(oculta)" : "(normal)";
+                return $"{a.Ability.Name} {tipo}";
+            }) ?? new List<string>());
+            Console.WriteLine($"Habilidades: {habilidades}");
+            Console.WriteLine($"Altura: {mascote.Height / 10.0:F1} metros");
+            Console.WriteLine($"Peso: {mascote.Weight / 10.0:F1} kg");
+            Console.WriteLine($"Alimentação: {mascote.Alimentacao}/10");
+            Console.WriteLine($"Humor: {mascote.Humor}/10");
+            Console.WriteLine($"Sono: {mascote.Sono}/10");
+            Console.WriteLine("=================================================");
+        }
+
+        public void ExibirMascotesAdotados(List<Mascote> mascotesAdotados)
         {
             Console.Clear();
             if (mascotesAdotados.Count == 0)
@@ -53,7 +86,7 @@ namespace _7DaysOfCode.View
                 for (int i = 0; i < mascotesAdotados.Count; i++)
                 {
                     var mascote = mascotesAdotados[i];
-                    Console.WriteLine($"{i + 1} - Pokémon: {mascote.Name}");
+                    Console.WriteLine($"{i + 1} - Mascote: {mascote.Name}");
                     var tipos = string.Join(", ", mascote.Types?.ConvertAll(t => t.Type.Name) ?? new List<string>());
                     Console.WriteLine($"  Tipos: {tipos}");
                     var habilidades = string.Join(", ", mascote.Abilities?.ConvertAll(a =>
@@ -62,6 +95,9 @@ namespace _7DaysOfCode.View
                         return $"{a.Ability.Name} {tipo}";
                     }) ?? new List<string>());
                     Console.WriteLine($"  Habilidades: {habilidades}");
+                    Console.WriteLine($"  Alimentação: {mascote.Alimentacao}/10");
+                    Console.WriteLine($"  Humor: {mascote.Humor}/10");
+                    Console.WriteLine($"  Sono: {mascote.Sono}/10");
                     Console.WriteLine("---------------------------------------------");
                 }
             }

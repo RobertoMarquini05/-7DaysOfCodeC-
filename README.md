@@ -17,7 +17,6 @@ Inspirado no conceito do Tamagotchi, o “bichinho virtual”, o programa permit
 - Exibição das habilidades, altura e peso do Pokémon selecionado
 - Adoção de Pokémons como mascotes virtuais
 - Visualização e gerenciamento dos mascotes adotados
-
 ---
 
 ## Tecnologias Utilizadas
@@ -70,3 +69,10 @@ Atualizado em 30/05/2025
   - Adicionado suporte à adoção de mascotes  
   - Implementada visualização dos mascotes adotados  
   - Adicionado arquivo `.gitignore` para ignorar arquivos gerados pelo build e IDEs
+
+- **02/06/2025**:
+- Descrição das novas funcionalidades: interações com mascotes (alimentar, brincar, dormir) e uso do AutoMapper para mapeamento de Pokemon para Mascote.
+- Instrução para instalar o pacote AutoMapper via NuGet (dotnet add package AutoMapper --version 14.0.0).
+- Atualização do histórico de atualizações com as mudanças de 02/06/2025 (classe Mascote, interações, AutoMapper, menus).
+- Menção à documentação do AutoMapper e à necessidade de conexão com a internet para a PokeAPI.
+- Estrutura reorganizada para maior clareza, mantendo a data 02/06/2025.

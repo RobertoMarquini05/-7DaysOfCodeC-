@@ -28,3 +28,9 @@ C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\obj\Debug\net8.0\
 C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.pdb
 C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.genruntimeconfig.cache
 C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\obj\Debug\net8.0\ref\#7DaysOfCode.dll
+C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\obj\Debug\net8.0\#7DaysOfCode.csproj.AssemblyReference.cache
+C:\Users\rober\Desktop\7DaysOfCode\-7DaysOfCodeC-\#7DaysOfCode\obj\Debug\net8.0\#7DaysOf.96F2265E.Up2Date
